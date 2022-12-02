@@ -1,0 +1,12 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* 
+put your css styles here, incase you dont use scss
+
+Note: don't write css for something that can be accomplished using bootstrap
+*/

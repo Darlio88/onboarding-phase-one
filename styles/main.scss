@@ -1,0 +1,109 @@
+@import "variables";
+@import "breakpoints";
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-family:'Inter', Courier, monospace
+}
+
+img{
+  display:block;
+}
+
+#app_container{
+}
+
+.modal_wrapper{
+  left:0;
+  right:0;
+  top:0;
+  flex:1;
+
+}
+
+// .modal_container{
+// flex:1;
+// margin: 48px 64px;
+// }
+
+.modal_left{
+flex:1;
+
+}
+
+.modal_right{
+flex:1;
+background-color: #c2f9fa;
+}
+
+.modal_left_header{
+height:6rem;
+background-color:skyblue;
+}
+
+.modal_header_right{
+  height:6rem;
+  background-color:skyblue;
+  }
+
+  @media screen and (max-width:378px){
+
+    .modal_left_header{
+      height:3rem;
+      background-color:skyblue;
+      }
+      
+      .modal_header_right{
+        height:3rem;
+        background-color:skyblue;
+        }
+      
+  }
+
+
+.approved_section{
+  margin-left:2rem;
+  background-color:var(--bs-green);
+  color:var(--bs-success);
+}
+
+.lower_section_modal{
+  bottom: 0;
+  right:0;
+  left:0;
+  background-color: skyblue;;
+}
+
+
+.modal_header_right{
+  background-color:skyblue;
+}
+
+
+.banner_actions{
+  display:flex;
+}
+
+.smaller__default{
+left:1rem;
+top:-0.75rem;
+z-index:10;
+}
+
+.commented_color{
+  color:var(--bs-red);
+  background-color:var(--bs-orange) ;
+}
+
+
+//responsive design
+@media screen and (max-width: 378px){
+}
+
+
+// Put your SCSS below, remember to compile it into CSS(your can use a vs code plugin called "live sass")
+
+//Note: don't write scss for something that can be accomplished using bootstrap
